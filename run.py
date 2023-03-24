@@ -14,6 +14,8 @@ def cancel_orders(trader, ticker):
             trader.submit_cancellation(order)
             sleep(1)  # the order cancellation needs a little time to go through
 
+def strate():
+    pass
 
 def close_positions(trader, ticker):
     # NOTE: The following orders may not go through if:
